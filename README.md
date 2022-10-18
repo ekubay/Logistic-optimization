@@ -155,31 +155,11 @@ uvicorn app:app --reload
 
 > All the unit and integration tests are found here in the tests folder.
 
-## Authors
-
-> 👤 **Birhanu Gebisa**
->
-> - [Email](mailto:birhanugebisa@gmail.com), [GitHub](https://github.com/BirhanuGebisa), [LinkedIn](https://www.linkedin.com/in/birhanu-gebisa2721/)
-
+## Author
 > 👤 **Ekubazgi Gebremariam**
->
 > - [Email](mailto:axutec14@gmail.com), [GitHub](https://github.com/ekubay), [LinkedIn](https://www.linkedin.com/in/ekubazgi-g-mariam-61507270)
 
-> 👤 **Emtinan Salaheldin**
->
-> - [Email](mailto:emtinan.s.e.osman@gmail.com), [GitHub](https://github.com/emtinanseo), [LinkedIn](https://www.linkedin.com/in/emtinan-elkhidir-osman-646242119/)
 
-> 👤 **Fisseha Estifanos**
->
-> - [Email](mailto:fisseha.137@gamil.com), [GitHub](https://github.com/fisseha-estifanos), [LinkedIn](https://www.linkedin.com/in/fisseha-estifanos-109ba6199/), [Twitter](https://twitter.com/f0x__tr0t)
-
-> 👤 **Natnael Masresha**
->
-> - [Email](mailto:natnaelmasresha@gmail.com), [GitHub](https://github.com/Nathnael12), [LinkedIn](https://www.linkedin.com/in/natnael-masresha-39a69b185/), [Twitter](https://twitter.com/natnaelmasresha)
-
-> 👤 **Niyomukiza Thamar**
->
-> - [Email](mailto:thamarniyo@gmail.com), [GitHub](https://github.com/niyotham), [LinkedIn](https://www.linkedin.com/in/thamar-niyomukiza-230959125/)
 
 ## Show us your support
 
