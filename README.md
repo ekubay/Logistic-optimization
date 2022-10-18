@@ -36,104 +36,46 @@ One key issue Gokada has faced as it expands its service is the sub-optimal plac
 > 
 
 ## Data
+There are two datasets available for this project.
+- The first one is the table that contains information about the completed orders
+>- Trip ID          
+>- Trip Origin       
+>- Trip Destination  
+>- Trip Start Time   
+>- Trip End Time    
 
-> The data used for generating these back testing results comes from several historical data of stocks and crypto currency trades.
-> These datasets are publicly available and can be found at [yahoo finance](https://help.yahoo.com/kb/SLN2311.html) and [binance](https://www.binance.com/en/landing/data).
-> You can read a brief description of what a K-line or candlestick data is [here](https://www.investopedia.com/terms/c/candlestick.asp).
+- The second one is the table that contains delivery requests by clients (completed and unfulfilled) 
+ >- id               
+ >- order_id       
+ >- driver_id        
+ >- driver_action 
+ >- lat            
+ >- lng            
+ >- created_at    
+ >- updated_at  
+
 
 > Basic features of the data sets:
->
-> - Date: The day the specific trade was recorded
-> - Open: The opening price of the trade at the beginning of the specific day
-> - High: The highest price of the trade for the specific day
-> - Low: The lowest price of the trade for the specific day
-> - Close: The closing price of the trade at the end of the specific day
-> - Adj Close: The closing price after adjustments for all applicable splits and dividend distributions
-> - Volume: The volume of the trade for the specific day
 
 ## Requirements
 
 > Pip
 
-> FastApi
-
-> Zookeeper
-
-> kafka-python
-
-> Apache kafka
-
-> backtrader and yfinance
-
-> React (nodejs)
-
-> Apache airflow
-
-> Python 3.5 or above
-
-> Docker and Docker compose
-
 You can find the full list of requirements in the requirements.txt file
 
 ## Install
 
-> We highly recommend you create a new virtual environment and install every required modules and libraries on the virtual environment.
+> It is recommended that to create a new virtual environment and install every required modules and libraries on the virtual environment.
 
 ### Installing this application
 
 - First clone this repo to your local machine using the command below
 
 ```
-git clone https://github.com/TenAcademy/backtesting.git
+git clone https://github.com/ekubay/Logistic-optimization.git
 cd backtesting
 pip install -r requirements.txt
 ```
-
-## Examples
-
-> ### Using this application locally
-
-- One can start using the application by first running the front and back ends.
-- You can run the front-end by running the following command on the terminal
-- A more detailed instruction regarding the front-end can be found at presentation/readme.md file.
-
-```
-cd presentation
-npm run start
-```
-
-- You can run the back-end by running the following command on the terminal
-
-```
-cd api
-uvicorn app:app --reload
-```
-
-> ### Interacting with the front end
-
-- After running the front end, one can simply go over to the browser and type in [http://localhost:3000](http://localhost:3000). or click this [link](http://localhost:3000)
-- A page similar to this will appear.
-
-![](screen_shots/web_app/create_acc.png)
-
-- After creating an account, or if users have already an account, they can simply click on the 'SIGN IN' button
-- After clicking on the 'SIGN IN' button, a page similar like this will appear
-
-![](screen_shots/web_app/sign_in.png)
-
-- Enter your emil and password and click on the 'SIGN IN' button.
-
-- Users will then fill in the parameters that are listed to get the back testing results they want, and click on the 'Run Test' button.
-
-![](screen_shots/web_app/get_metrics.png)
-
-## Frontend
-
-> The front end application can be found here in the presentation folder
-
-## Backend
-
-> The back end application can be found here in the api folder
 
 ## Screenshots
 
@@ -147,10 +89,6 @@ uvicorn app:app --reload
 
 > All the scripts and modules used for this project relating to interactions with kafka, airflow, and other frameworks along with default parameters and values used will be found here, in the scripts folder.
 
-## Strategies
-
-> All the back testing strategies and algorithms are found here in the strategies folder.
-
 ## Tests
 
 > All the unit and integration tests are found here in the tests folder.
@@ -159,10 +97,8 @@ uvicorn app:app --reload
 > 👤 **Ekubazgi Gebremariam**
 > - [Email](mailto:axutec14@gmail.com), [GitHub](https://github.com/ekubay), [LinkedIn](https://www.linkedin.com/in/ekubazgi-g-mariam-61507270)
 
-
-
 ## Show us your support
 
-> Give us a ⭐ if you like this project, and also feel free to contact us at any moment.
+> Give ⭐ if you like this project, and also feel free to contact me at any moment.
 
-![Contributors list](https://contrib.rocks/image?repo=TenAcademy/backtesting)
+![Contributors list](https://contrib.rocks/image?repo=Logistic-optimization)
