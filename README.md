@@ -1,12 +1,10 @@
 # Logistic-Optimization
 
-## Cryptocurrency and stock trading engineering: A scalable back testing infrastructure and a reliable, large-scale trading data pipeline
+## Delivery drivers location optimisation with Causal Inference 
 
 #### Initial system architecture design
 
 ![](screen_shots/solid-workflow-diagram.png)
-
-## Project details
 
 **Table of contents**
 
@@ -32,15 +30,8 @@
 One key issue Gokada has faced as it expands its service is the sub-optimal placement of pilots (Gokada calls their motor drivers pilots) and clients who want to use Gokada to send their parcel. This has led to a high number of unfulfilled delivery requests. 
 
 
-## Overview
-
-> A startup called Mela (our client for this week’s project) wants to make it simple for everyone to enter the world of cryptocurrencies and general stock market trade. It also wants to give investors a reliable source of investment while lowering the risk associated with trading cryptocurrencies.
-
-> Although the past performance of any financial market is never a reliable indicator of the future, it is important to run backtests that simulate current and past particular situations as well as their trend over time. Having a clear understanding of the financial system, and stock market trading, and recognizing the complex data engineering systems involved in the crypto and general stock market trading systems are essential.
-
 ## Objective
-
->Gokada is asking 10 Academy trainees, you, to work on its data to help it understand the primary causes of unfulfilled requests as well as come up with solutions that recommend drivers locations that increase the fraction of complete orders. Since drivers are paid based on the number of requests they accept, your solution will help Gokada business grow both in terms of client satisfaction and increased business. 
+>Gokada is asking 10 Academy trainees, to work on its data to help it understand the primary causes of unfulfilled requests as well as come up with solutions that recommend drivers locations that increase the fraction of complete orders. Since drivers are paid based on the number of requests they accept, your solution will help Gokada business grow both in terms of client satisfaction and increased business. 
 
 > 
 
