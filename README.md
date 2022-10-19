@@ -15,9 +15,6 @@
 - [Requirements](#requirements)
 - [Install](#install)
 - [Using the application](#examples)
-- [Frontend](#frontend)
-- [Backend](#backend)
-- [Screenshots](#screenshots)
 - [Notebooks](#notebooks)
 - [Scripts](#scripts)
 - [Strategies](#strategies)
@@ -26,14 +23,12 @@
 
 ## Introduction
 
-> Your client for this week's challenge is Gokada - the largest last mile delivery service in Nigeria. Gokada works is partnered with motorbike owners and drivers to deliver parcels across Lagos, Nigeria. Gokada has completed more than a million deliveries in less than a year, with a fleet of over 1200 riders.
+> The client for this week's challenge is Gokada - the largest last mile delivery service in Nigeria. Gokada works is partnered with motorbike owners and drivers to deliver parcels across Lagos, Nigeria. Gokada has completed more than a million deliveries in less than a year, with a fleet of over 1200 riders.
 One key issue Gokada has faced as it expands its service is the sub-optimal placement of pilots (Gokada calls their motor drivers pilots) and clients who want to use Gokada to send their parcel. This has led to a high number of unfulfilled delivery requests. 
 
 
 ## Objective
 >Gokada is asking 10 Academy trainees, to work on its data to help it understand the primary causes of unfulfilled requests as well as come up with solutions that recommend drivers locations that increase the fraction of complete orders. Since drivers are paid based on the number of requests they accept, your solution will help Gokada business grow both in terms of client satisfaction and increased business. 
-
-> 
 
 ## Data
 There are two datasets available for this project.
@@ -54,32 +49,26 @@ There are two datasets available for this project.
  >- created_at    
  >- updated_at  
 
-
 > Basic features of the data sets:
 
 ## Requirements
-
 > Pip
 
 You can find the full list of requirements in the requirements.txt file
 
 ## Install
 
-> It is recommended that to create a new virtual environment and install every required modules and libraries on the virtual environment.
+> It is recommended that to create a new virtual environment and install every required modules and libraries on the virtual evironment.
 
 ### Installing this application
 
 - First clone this repo to your local machine using the command below
 
 ```
-git clone https://github.com/ekubay/Logistic-optimization.git
-cd backtesting
+git clone https://github.com/ekubay/causal_inference.git
+cd Logistic-optimization
 pip install -r requirements.txt
 ```
-
-## Screenshots
-
-> The detailed use and implementation of the pipelines using Apache Airflow, pipeline summary and interaction, kafka clusters, interaction with the topics on the kafka clusters, front-end images and usage can all be found in this screenshots folder as image files.
 
 ## Notebooks
 
