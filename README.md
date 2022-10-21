@@ -66,7 +66,7 @@ You can find the full list of requirements in the requirements.txt file
 
 ```
 git clone https://github.com/ekubay/causal_inference.git
-cd Logistic-optimization
+cd causal_inference
 pip install -r requirements.txt
 ```
 
