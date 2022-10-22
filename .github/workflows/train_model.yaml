@@ -1,4 +1,4 @@
-name: main
+name: causal_inference
 on: [push]
 jobs:
   run:
@@ -16,7 +16,7 @@ jobs:
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Post reports as comments in GitHub PRs
+          Post reports as comments in GitHub PRs
           #cat results.txt >> report.md
           #cml-send-comment report.md
 Footer
